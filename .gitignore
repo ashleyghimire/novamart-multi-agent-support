@@ -1,0 +1,43 @@
+# ─────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# ─────────────────────────────────────────────
+# Environment & Secrets
+# ─────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─────────────────────────────────────────────
+# Claude Code session data
+# ─────────────────────────────────────────────
+.claude/
+
+# ─────────────────────────────────────────────
+# Test / runtime artifacts
+# ─────────────────────────────────────────────
+payload.json
+response.json
+
+
+# AWS credentials and local configuration
+.aws/
+credentials
+credentials.*
+config.local
+*.pem
+*.key
+
+# Local environment and build artifacts
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
