@@ -41,3 +41,15 @@ venv/
 build/
 dist/
 .pytest_cache/
+
+# AgentCore local build and runtime artifacts
+.agentcore_build/
+runtime-errors.json
+trace-session.json
+
+# Local backups and temporary comparison files
+*-backup.json
+*-updated.json
+src/*_backup.py
+src/*_revised.py
+upstream_*
